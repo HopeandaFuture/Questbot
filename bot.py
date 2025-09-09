@@ -1052,7 +1052,7 @@ if __name__ == "__main__":
         print("Please set your Discord bot token as an environment variable.")
         exit(1)
 
-        webserver.keep_alive()
+    webserver.keep_alive()
     
     # Run the bot
     bot.run(TOKEN)
